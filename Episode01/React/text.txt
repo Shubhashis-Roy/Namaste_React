@@ -1,0 +1,63 @@
+Q.What is CDN?
+
+=>  CDN stands for Content Delivery Network. It is a network of servers distributed across
+    various geographical locations with the aim of delivering web content, such as images,
+    videos, scripts, and other static assets, to users more efficiently and quickly.
+    CDNs work by caching and distributing content to servers that are closer to the end-users,
+    reducing the distance that data needs to travel and improving the overall 
+    performance of websites and applications.
+
+
+Q.Why react known as React?
+
+=>  Because of its core philosophy and mechanism of efficiently updating the user interface 
+    in response to changes in data. The name "React" reflects how the library reacts to 
+    changes in data and automatically updates the user interface accordingly.
+    Declarative Approach: React uses a declarative approach to building UIs. 
+    Instead of directly manipulating the DOM, we declare how the UI should look based on 
+    the current state of your application.
+
+Q. Why cross-origin use in script tag ?
+=>  CORS is used to manage cross-origin requests.
+
+    CORS stands for Cross-Origin Resource Sharing, and is a mechanism that allows resources 
+    on a web page to be requested from another domain outside their own domain. It defines a 
+    way of how a browser and server can interact to determine whether it is safe to allow the 
+    cross-origin request. CORS allows servers to specify who can access the assets on the server,
+    among many other things.
+
+    Tip: The opposite of cross-origin requests is same-origin requests. 
+    This means that a web page can only interact with other documents that are also on the 
+    same server. This policy enforces that documents that interact with each other must have 
+    the same origin (domain).
+
+Q. what is the difference between react and react-dom ?
+
+=>  React and ReactDOM are two related libraries in the React ecosystem.
+    React:
+    React, often referred to as React.js or React Core, is the core library that provides 
+    the foundation for building user interfaces using a component-based architecture. 
+    It introduces the concept of components, which are reusable, self-contained units of UI 
+    that can manage their own state and rendering logic
+
+    ReactDOM: 
+    -> Mainly use of ReactDOM to render components and elements on the web.
+    ReactDOM is a specific rendering library that works in conjunction with React to render 
+    components into the actual HTML DOM. It provides the necessary methods to take the virtual
+    representation of your UI created by React and update the real DOM in the browser.
+
+    Key functions of ReactDOM include:
+    ReactDOM.render(): This method is used to render a React component into the specified DOM element. 
+        It's typically called once at the start of your application to render the initial user interface.
+    ReactDOM.hydrate(): Similar to render(), but used when you're rendering on the server and want 
+            to attach event listeners to the existing markup.
+    ReactDOM.createPortal(): Allows you to render a component's children into a different DOM 
+        hierarchy (such as modals or overlays) without affecting the component's parent hierarchy.
+
+Q. Difference between react.development.js and react.production.js via cdn ?
+
+    When using React in a web application, you have the option to use different versions of
+    the React library depending on whether you are developing/debugging or deploying your application 
+    to production. React provides separate development and production versions of the library
+    to optimize the trade-off between development convenience and production performance. 
+    These versions are named accordingly:
