@@ -1,0 +1,4 @@
+JSX: it's a js syntex which is easier to create React Element.
+
+-> JSX is not HTML inside js. 
+-> JSX is HTML or XML like syntex.
