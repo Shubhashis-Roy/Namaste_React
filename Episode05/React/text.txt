@@ -1,0 +1,9 @@
+1.5 hr
+
+
+
+# 2 type of export and import 
+-> Named export [When more than one things to export]
+    and import => import {name} from "path"
+-> default export [when one thing export]
+    and import => import name from "path"
