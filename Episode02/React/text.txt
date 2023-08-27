@@ -1,0 +1,87 @@
+40min
+
+soure code link:
+https://github.com/namastedev/namaste-react
+
+
+Parcel
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Algo - written in c++ 
+    by using this algo parcel capable to reload the server autometically when save the code.
+- Image opimization
+- Caching - Faster builds
+    it maintains a own cach in our local system
+- Better Error Hnading
+- Tree shaking -> it basically remove the unused code.
+- Diagnostic -> to better way to show the error.
+
+
+        ==============================================================================
+        
+
+    ^ caret, ~ tilda
+
+Q.What is NPM ?
+=>  npm stands for "Node Package Manager." It is a package manager for JavaScript and the default package manager
+    for the Node.js runtime environment. npm allows developers to discover, install, and manage packages of code,
+    also known as modules or libraries, that can be easily integrated into their projects.
+
+Q. What is parcel/webpack ? used of it ?
+=>  Parcel and webpack are both popular tools in the JavaScript ecosystem used for bundling and managing front-end 
+    assets in web development. They help optimize the delivery of resources like JavaScript files, CSS, images, and more, 
+    making websites load faster and improving the development workflow. 
+
+Q. What is parcel-cache ? 
+=>  cache folder (or . parcel-cache in parcel v2) stores information about your project when parcel builds it, 
+    so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch. It's a key reason 
+    why parcel can be so fast in development mode.
+
+Q. what is npx ?
+=>  Npm is a tool that use to install packages. Npx is a tool that use to execute packages.
+    -> NPX stands for Node Package eXecute. It is simply an NPM package runner. It allows developers to execute
+    any Javascript Package available on the NPM registry without even installing it. NPX is installed automatically
+    with NPM version 5.2. 0 and above.
+
+Q. What is Tree shaking ?
+=>  It refers to the process of eliminating unused or dead code from a JavaScript application or library during 
+    the bundling process. The goal of tree shaking is to reduce the final bundle size by removing parts of the code 
+    that are not actually used, thus optimizing the application's performance and reducing load times for end users.
+
+Q. What is HMR ?
+=>  Hot Module Replacement (HMR) exchanges, adds, or removes modules while an application is running, without 
+    a full reload. This can significantly speed up development in a few ways: Retain application state which is lost 
+    during a full reload.
+
+Q. What is gitignore ?
+=>  In our application whatever file we don't want to push into git we mention this file name in gitignore.
+    -> which file we can genarate again we can't write the name of that file into gitignore. 
+
+Q. What is node_module ?
+=>  It contaon the actual  data of package.Json.
+    -> When we install a package the configuration is in the package.Json file but the actual data is 
+    present into node_module.
+
+Q. What is dist folder ?
+=>  A "dist" folder, short for "distribution," is a common directory used in software development 
+    projects to store the final output files that are ready for deployment or distribution. 
+    The contents of the "dist" folder typically represent the compiled, bundled, and optimized version 
+    of the source code. This folder contains the files that end users will interact with, and it's
+    what you deploy to production servers or distribute to users.
+
+Q. What is browserlists ?
+=>  We decleared into package.Json file and by using this we can list all the browser where we want to support
+    our application.
+    -> Browserslist helps you define a set of targeted browsers for which you aim to provide compatibility 
+    and support. Other browsers might still be able to run your application, but you may not have tailored 
+    your code to optimize their experience. 
+    
+=====================================================
+
+5 favourite 5 superpower of parcel and describe
+
+script types in html(MDN Docs)
+
+
+
